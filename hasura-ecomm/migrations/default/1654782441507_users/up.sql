@@ -4,6 +4,6 @@ CREATE TABLE IF NOT EXISTS "public"."users" (
 
 "name" TEXT NOT NULL,
 
-CONSTRAINT "user_pkey" PRIMARY KEY ("id")
+CONSTRAINT "users_pkey" PRIMARY KEY ("id")
 
 );
