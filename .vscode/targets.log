@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  9 13:55:42 2022
+# Make data base, printed on Thu Jun  9 14:15:50 2022
 
 # Variables
 
@@ -33,7 +31,7 @@ rvm_path = /home/gitpod/.rvm
 # environment
 SUPERVISOR_ADDR = localhost:22999
 # environment
-SUPERVISOR_ENVVAR_OTS = https://gitpod.io/api/ots/get/6d0bebcb-2515-4c89-a127-c3ade273d5b3
+SUPERVISOR_ENVVAR_OTS = https://gitpod.io/api/ots/get/85c63a64-2844-4c24-b35f-b7132e956db8
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
@@ -79,9 +77,9 @@ MAKE_HOST := x86_64-pc-linux-gnu
 # environment
 PATH = /ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.7.6/bin:/home/gitpod/.rvm/gems/ruby-2.7.6@global/bin:/home/gitpod/.rvm/rubies/ruby-2.7.6/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v16.15.1/bin:/workspace/.pip-modules/bin:/home/gitpod/.pyenv/bin:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/gitpod/.nvm/versions/node/v16.15.1/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.15.1/bin:/home/gitpod/.nvm/versions/node/v16.15.1/bin
 # environment
-GITPOD_OWNER_ID = e95893c8-9ae1-44ee-862f-32288b94a16e
+GITPOD_OWNER_ID = e526ffe0-7ce9-4663-b41e-f7bd91c3165e
 # environment
-GITPOD_WORKSPACE_ID = bmerkuri-chatappgitpod-84gu0djmzn2
+GITPOD_WORKSPACE_ID = bmerkuri-chatappgitpod-54z464ecszj
 # environment
 GITPOD_INTERVAL = 30000
 # environment
@@ -105,7 +103,7 @@ SDKMAN_PLATFORM = linuxx64
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-3ac1ea09-eaa3-4b9d-8e9a-bec6884efc7c.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-c11d6a4a-ae02-471c-9a59-b771a7523a9c.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -149,7 +147,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # makefile (from 'Makefile', line 8)
 steps = 1
 # environment
-GITPOD_CLI_APITOKEN = oJ.U0XcNrW7mH3S2yUsxo8ulL-ohkUkD
+GITPOD_CLI_APITOKEN = jwrqQupyWuCCOuLV7rb9vIHTfr9RBBNv
 # automatic
 +F = $(notdir $+)
 # environment
@@ -157,7 +155,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
-HOSTNAME = bmerkuri-chatappgitpod-84gu0djmzn2
+HOSTNAME = bmerkuri-chatappgitpod-54z464ecszj
 # environment
 GRADLE_USER_HOME = /workspace/.gradle/
 # environment
@@ -177,7 +175,7 @@ SHLVL = 0
 # environment
 NIX_PROFILES = /nix/var/nix/profiles/default /home/gitpod/.nix-profile
 # environment
-GITPOD_GIT_USER_NAME = bmerkuri
+GITPOD_GIT_USER_NAME = Kristi-12
 # environment
 JAVA_HOME = /home/gitpod/.sdkman/candidates/java/current
 # default
@@ -203,7 +201,7 @@ THEIA_RATELIMIT_LOG = 50
 # environment
 THEIA_MINI_BROWSER_HOST_PATTERN = browser-{{hostname}}
 # environment
-GITPOD_GIT_USER_EMAIL = bmerkuri@unitsystem.net
+GITPOD_GIT_USER_EMAIL = kmengri@unitsystem.net
 # default
 MAKE_COMMAND := make
 # environment
@@ -261,7 +259,7 @@ PWD = /workspace/chat-app-gitpod
 # environment
 LC_ALL = C
 # environment
-GITPOD_WORKSPACE_CONTEXT = {"isFile":false,"path":"","title":"bmerkuri/chat-app-gitpod - main","ref":"main","refType":"branch","revision":"a471bb0d1d6918ab320cbba7cda495cf2d35d36f","repository":{"cloneUrl":"https://github.com/bmerkuri/chat-app-gitpod.git","host":"github.com","name":"chat-app-gitpod","owner":"bmerkuri","private":false},"normalizedContextURL":"https://github.com/bmerkuri/chat-app-gitpod","checkoutLocation":"chat-app-gitpod"}
+GITPOD_WORKSPACE_CONTEXT = {"isFile":false,"path":"","title":"bmerkuri/chat-app-gitpod - main","ref":"main","refType":"branch","revision":"2bbbdb3de0e91d6236f3f893ffa2f383df29a41f","repository":{"cloneUrl":"https://github.com/bmerkuri/chat-app-gitpod.git","host":"github.com","name":"chat-app-gitpod","owner":"bmerkuri","private":false},"normalizedContextURL":"https://github.com/bmerkuri/chat-app-gitpod","checkoutLocation":"chat-app-gitpod"}
 # environment
 JAVA_TOOL_OPTIONS =  -Xmx3435m
 # automatic
@@ -281,9 +279,9 @@ NGINX_DOCROOT_IN_REPO = public
 # environment
 rvm_loaded_flag = 1
 # environment
-GITPOD_INSTANCE_ID = 0ce8f1b4-9f78-47d0-b2e5-8d4306b919a0
+GITPOD_INSTANCE_ID = e4b6d0ba-b2f5-47a8-82ac-cfad085772e1
 # environment
-GITPOD_WORKSPACE_URL = https://bmerkuri-chatappgitpod-84gu0djmzn2.ws-eu47.gitpod.io
+GITPOD_WORKSPACE_URL = https://bmerkuri-chatappgitpod-54z464ecszj.ws-eu47.gitpod.io
 # default
 .RECIPEPREFIX := 
 # environment
@@ -303,9 +301,9 @@ MY_RUBY_HOME = /home/gitpod/.rvm/rubies/ruby-2.7.6
 
 # Directories
 
-# . (device 2346, inode 402974787): 10 files, no impossibilities.
+# . (device 2346, inode 1006855503): 9 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -366,7 +364,7 @@ migrate-create:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-09 13:48:48.998644262
+#  Last modified 2022-06-09 14:15:35.025604276
 #  File has been updated.
 #  Successfully updated.
 
@@ -453,12 +451,14 @@ migrate-status:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 29 / storage = 270 B / avg = 9 B
-# current buf: size = 8162 B / used = 270 B / count = 29 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 257 B / avg = 9 B
+# current buf: size = 8162 B / used = 257 B / count = 28 / avg = 9 B
 
-# strcache performance: lookups = 53 / hit rate = 45%
+# strcache performance: lookups = 52 / hit rate = 46%
 # hash-table stats:
-# Load=29/8192=0%, Rehash=0, Collisions=1/53=2%
-# Finished Make data base on Thu Jun  9 13:55:42 2022
+# Load=28/8192=0%, Rehash=0, Collisions=1/52=2%
+# Finished Make data base on Thu Jun  9 14:15:50 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+

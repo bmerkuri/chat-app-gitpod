@@ -1,7 +1,11 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/workspace/chat-app-gitpod'
+ 
 echo "Starting the project..."
+ 
 docker-compose up -d
+ 
 docker-compose logs -f
+ 
 make: Leaving directory '/workspace/chat-app-gitpod'
  
